@@ -7,9 +7,7 @@ const nextConfig = {
   typescript: {
     ignoreBuildErrors: true,
   },
-  webpack: (config) => {
-    return config
-  },
+  turbopack: false,
 }
 
 module.exports = nextConfig
